@@ -7,13 +7,15 @@
     <link href="./stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> 
 </head>
 <body>
-    <header>
+    <header class="header">
+       <div class="header__logo">
         <h1>sitename</h1>
-        <hr>
-        <nav>
+       </div>
+        
+        <nav class='header__nav'>
             <ul>
                 <li>
-                    <a href="">home</a>
+                    <a class="header__nav-first-item" href="">home</a>
                 </li>
                 <li>
                     <a href="">about</a>
@@ -31,137 +33,143 @@
         </nav>
     </header>
     <section class="banner">
-        <h2>ipsum dolor sit amet lat</h2>
-        <p>Aliquam tincidunt mauris eu risus</p>
+        <div class="banner__text">
+            <h2 class="banner__caption">ipsum dolor sit amet lat</h2>
+            <p class="banner__description">Aliquam tincidunt mauris eu risus</p>
+        </div>
     </section>
-    <section>
-        <article>
-            <h3>Morbi in sem lorem placerat ornare Pellente</h3>
+    <section class="info-block1">
+        <article class="info-block1__article1">
+            <h3 class="info-block1__caption">Morbi in sem lorem placerat ornare Pellente</h3>
             <p>euismod in, pharetra ultricies crasconsequat vavimus sup sompurkoi varsit</p>
             <button>more info</button>
         </article>
-        <article>
-            <p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus lorem ipsum dolor</p>
-            <p>vitae facilisis libero dolor a pursus. Sed ve lacus. Mauris nibh felis, adipiscing varius, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus.<br><br>
-                Suspendisse mauris. Fusce accumsan mollis eros. Pallentesque a diam sit amet mi ullamcorper vehicula. Integeralesuada.</p>
+        <article class="info-block1__article2">
+            <p class="info-block1__impornant-text">Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus lorem ipsum dolor</p>
+            <p class="info-block1__basic-text">vitae facilisis libero dolor a pursus. Sed ve lacus. Mauris nibh felis, adipiscing varius, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus.
+                </p>
+            <p class="info-block1__basic-text">Suspendisse mauris. Fusce accumsan mollis eros. Pallentesque a diam sit amet mi ullamcorper vehicula. Integeralesuada.</p>
         </article>
     </section>
-    <section>
+    <section class="info-block2">
         <ul>
             <li>
-                <h4>Cestibulum auct</h4>
+                <h4 class="info-block2__caption">Cestibulum auct</h4>
                 <hr>
-                <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, euin vulputate magna eros lipsum</p>
+                <p class="info-block2__description">Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, euin vulputate magna eros lipsum</p>
                 <button>more</button>
             </li>
             <li>
-                <h4>Vetae facillis</h4>
+                <h4 class="info-block2__caption">Vetae facillis</h4>
                 <hr>
-                <p>Craesent dapibus, neque id cursus faucibus, tortor neque egestas augue, euin vulputate magna eros lipsum</p>
+                <p class="info-block2__description">Craesent dapibus, neque id cursus faucibus, tortor neque egestas augue, euin vulputate magna eros lipsum</p>
                 <button>more</button>
             </li>
             <li>
 
-                <h4>integre fusce</h4>
+                <h4 class="info-block2__caption">integre fusce</h4>
                 <hr>
-                <p>Jraesent dapibus, neque id cursus faucibus, tortor neque egestas augue, euin vulputate magna eros lipsum</p>
+                <p class="info-block2__description">Jraesent dapibus, neque id cursus faucibus, tortor neque egestas augue, euin vulputate magna eros lipsum</p>
                 <button>more</button>
             </li>
         </ul>
     </section>
-    <section>
-        <h2>Morbi in sem lorem placerat</h2>
-        <p> euismod in pharetra ultricies Crasconsequat vavimus sup</p>
-        <input type="email" name="" id="">
+    <section class="input-block">
+        <h2 class="input-block__caption">Morbi in sem lorem placerat</h2>
+        <p class="input-block__description"> euismod in pharetra ultricies Crasconsequat vavimus sup</p>
+        <input class="input-block__input" type="email" name="" id="" placeholder="cresent sbsum ...">
         <button>egeste</button>
     </section>
-    <section>
+    <section class="info-block3">
         <ul>
             <li>
-                <h4>Sed egest asteet</h4>
-                <article>
-                    <img src="./src/images/girl1.png" alt="girl">
-                    <p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae lactus metus libero eu augue. Morbi purus libero, 
-                        faucibus adpiscing, commodo quis Gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem ipsum dolor. 
-                        
-                    </p>
-                </article>
-                <article>
-                    <img src="./src/images/girl2.png" alt="girl">
-                    <p>Lorem egestas, ante et vulputate volutpat, eros pede semper est, vitae lactus metus libero eu augue. Morbi purus libero, 
-                        faucibus adpiscing, commodo quis Gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem ipsum dolor.</p>
-                </article>
+                <h4 class="info-block3__caption  info-block3__caption-active ">Sed egest asteet</h4>
+            </li>
+
+            <li>
+                <h4 class="info-block3__caption">Morbi interdum</h4>
             </li>
             <li>
-                <h4>Morbi interdum</h4>
-            </li>
-            <li>
-                <h4>Morbi interdum</h4>
+                <h4 class="info-block3__caption">Morbi interdum</h4>
             </li>
         </ul>
+        <div class="info-block3__tab">               
+            <article>
+                <img src="./src/images/girl1.png" alt="girl">
+                <p class="info-block3__text">Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae lactus metus libero eu augue. Morbi purus libero, 
+                    faucibus adpiscing, commodo quis Gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem ipsum dolor. 
+                </p>
+            </article>
+            <article>
+                <img src="./src/images/girl2.png" alt="girl">
+                <p class="info-block3__text">Lorem egestas, ante et vulputate volutpat, eros pede semper est, vitae lactus metus libero eu augue. Morbi purus libero, 
+                    faucibus adpiscing, commodo quis Gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem ipsum dolor.</p>
+            </article>
+        </div>
     </section>   
-    <footer>
-        <article>
-            <h3>blog posts</h3>
-            <ul>
-                <li>
-                    <div>
-                        <img src="./src/images/blogPostAuthor1.png" alt="author">
-                        <p class="">Aug / 25 / 2013</p>
-                        <p class="">Cohn Doe</p>
-                        <p class="">Praesent dapibus, neque id cursus faucibus, tortor ...</p>
-                        <hr>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <img src="./src/images/blogPostAuthor2.png" alt="author">
-                        <p class="">Aug / 25 / 2013</p>
-                        <p class="">Cohn Doe</p>
-                        <p class="">Praesent dapibus, neque id cursus faucibus, tortor ...</p>
-                        <hr>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <img src="./src/images/blogPostAuthor3.png" alt="author">
-                        <p class="">Aug / 25 / 2013</p>
-                        <p class="">Cohn Doe</p>
-                        <p class="">Praesent dapibus, neque id cursus faucibus, tortor ...</p>
-                </div></li>
-            </ul>
-        </article>
-        <article>
-            <h3>twitter posts</h3>
-            <ul>
-                <li>
-                    <p>@raflmlt</p>
-                    <p>Morbi interdum mollis sapien sed ac risus. Phasellus lacinia</p>
-                </li>
-                <li>
-                    <p>@johndoe</p>
-                    <p>Morbi interdum mollis sapien sed ac risus. Phasellus lacinia</p>
-                </li>
-                <li>
-                    <p>@amanda</p>
-                    <p>Morbi interdum mollis sapien sed ac risus. Phasellus lacinia</p>
-                </li>
-                <li>
-                    <p>@peter</p>
-                    <p>Morbi interdum mollis sapien sed ac risus. Phasellus lacinia</p>
-                </li>
-            </ul>
-        </article>
-        <article>
-            <h3>quick contact</h3>
-            <img src="./src/images/map.png" alt="map">
-            <p>Address</p>
-            <p>Building name, some street name, some city name, country</p>
-            <p>info@sitename.com / (000) 888 888 8888</p>
-            
-        </article>
-
-    <div>
+    <footer >
+        <div class="footer__info-block">
+            <article>
+                <h3 class="footer__caption">blog posts</h3>
+                <ul>
+                    <li>
+                        <div class="blog-posts__post"> 
+                            <img src="./src/images/blogPostAuthor1.png" alt="author">
+                            <p class="">Aug / 25 / 2013</p>
+                            <p class="">Cohn Doe</p>
+                            <p class="">Praesent dapibus, neque id cursus faucibus, tortor ...</p>
+                            <hr>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="blog-posts__post">
+                            <img src="./src/images/blogPostAuthor2.png" alt="author">
+                            <p class="">Aug / 25 / 2013</p>
+                            <p class="">Cohn Doe</p>
+                            <p class="">Praesent dapibus, neque id cursus faucibus, tortor ...</p>
+                            <hr>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="blog-posts__post">
+                            <img src="./src/images/blogPostAuthor3.png" alt="author">
+                            <p class="">Aug / 25 / 2013</p>
+                            <p class="">Cohn Doe</p>
+                            <p class="">Praesent dapibus, neque id cursus faucibus, tortor ...</p>
+                    </div></li>
+                </ul>
+            </article>
+            <article>
+                <h3 class="footer__caption">twitter posts</h3>
+                <ul>
+                    <li>
+                        <p>@raflmlt</p>
+                        <p>Morbi interdum mollis sapien sed ac risus. Phasellus lacinia</p>
+                    </li>
+                    <li>
+                        <p>@johndoe</p>
+                        <p>Morbi interdum mollis sapien sed ac risus. Phasellus lacinia</p>
+                    </li>
+                    <li>
+                        <p>@amanda</p>
+                        <p>Morbi interdum mollis sapien sed ac risus. Phasellus lacinia</p>
+                    </li>
+                    <li>
+                        <p>@peter</p>
+                        <p>Morbi interdum mollis sapien sed ac risus. Phasellus lacinia</p>
+                    </li>
+                </ul>
+            </article>            
+            <article>
+                <h3 class="footer__caption">quick contact</h3>
+                <img src="./src/images/map.png" alt="map">
+                <p>Address</p>
+                <p>Building name, some street name, some city name, country</p>
+                <p>info@sitename.com / (000) 888 888 8888</p>
+            </article>
+        </div>
+        
+    <div class="copirights"> 
         <p>Copyright(c) website name.<span> Designed by: www.alltemplateneeds.com</span>/images fro, http://wallpaperswide.com// www.phototrack.net</p>
     </div>
 </footer>
