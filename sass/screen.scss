@@ -19,6 +19,16 @@
     src: url('../src/fonts/SourceSansPro-Italic.ttf');
     font-style: italic;
 }
+@font-face{
+    font-family: 'SourceSansPro';
+    src: url('../src/fonts/SourceSansPro-Light.ttf');
+    font-weight: lighter;
+}
+// @font-face{
+//     font-family: 'SourceSansPro';
+//     src: url('../src/fonts/SourceSansPro-SemiBold.ttf');
+//     font-weight: bolder;
+// }
 $font-stack: "SourceSansPro", sans-serif;
 body {
     background-color: #fafafa;
@@ -60,6 +70,7 @@ body {
         text-decoration: none; 
         color: #716a72;
         text-transform: uppercase;
+        font-weight: lighter;
     } 
 
 }
@@ -83,47 +94,71 @@ body {
     text-transform: uppercase;
     text-align: center;
     font-size: 34px;     
-    font-weight: bold;               
+    font-weight: bold;   
+    line-height: 1.2;                  
 }
 .banner__description {
     font-size: 18px;
     line-height: 1.2;
-    text-align: center;          
+    text-align: center;  
+    font-weight: normal; 
+    line-height: 1.2;
 }
 .info-block1 {
-    height: 381px;
+    height: 382px;
     background-color: #FFFFFF;
     box-shadow: 0px 1px 4px 0px rgba(82, 84, 77, 0.16);
     display: flex;
     justify-content: space-between;
-    padding-top: 79px;
     color: #d1d1d1;
 }
 .info-block1__article1 {
+    margin-top: 79px;
     width: 600px;
     text-transform: uppercase;
-    text-align: right;
-    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
 }
 .info-block1__caption {
+    text-align: right;
+    font-size: 30px;
     color: rgb(241, 196, 15);
     font-weight: bold;
+    width: 466px;
+    line-height: 1.2;
+}
+.info-block1__description {
+    text-align: right;
+    font-size: 24px;
+    letter-spacing: normal;
+    font-weight: lighter;
+    color: #9d9d9d;
+    line-height: 1.2;
+    width: 428px;
 }
 .info-block1__article2 {
+    margin-top: 79px;
     width: 600px;
     text-align: left;
     letter-spacing: normal;
+    line-height: 1.263;
 }
-.info-block1__impornant-text {
+.info-block1__important-text {
     width: 441px;
     font-size: 19px;
     color: rgb(113, 106, 114);
     text-decoration: underline;   
     font-style: italic;
+
 }
 .info-block1__basic-text {
+    font-size: 15px;
     width: 441px;
     margin-top: 38px;
+    color: #9d9d9d;
+    font-weight: normal;  
 }
 .info-block2 {
     height: 363px;
@@ -144,6 +179,7 @@ body {
     font-size: 24px;
     color: rgb(113, 106, 114);
     font-weight: bold;
+
 }
 .info-block2__description {
     color: rgb(157, 157, 157);
@@ -152,6 +188,7 @@ body {
     letter-spacing: normal;
     line-height: 1.6;
     hyphens: auto;
+    margin-bottom: 32px;
 }
 
 %button {
@@ -311,7 +348,8 @@ body {
 .blog-posts__post {
     height: 130px;
 }
-.copirights {
+
+.copyrightss {
     letter-spacing: normal;
     line-height: 86px;
     height: 86px;
@@ -320,6 +358,6 @@ body {
     font-weight: bold;
     color: #FFFFFF;
 }
-.copirights__designed-by {
+.copyrights__designed-by {
     color: #000000;
 }
