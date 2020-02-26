@@ -255,6 +255,37 @@ body {
 }
 
 /* line 157, ../sass/screen.scss */
+.info-block2__button, .info-block1__button {
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "SourceSansPro", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #f1c40f;
+  border: #f1c40f;
+  filter: drop-shadow(0.5px 0.866px 2px rgba(82, 84, 77, 0.16));
+}
+
+/* line 169, ../sass/screen.scss */
+.info-block2__button {
+  margin-top: 33px;
+  letter-spacing: 0.175em;
+  font-size: 16px;
+  height: 32px;
+  width: 70px;
+}
+
+/* line 177, ../sass/screen.scss */
+.info-block1__button {
+  margin-top: 40px;
+  letter-spacing: 0.09em;
+  font-size: 18px;
+  width: 130px;
+  height: 42px;
+}
+
+/* line 186, ../sass/screen.scss */
 .input-block {
   height: 258px;
   background-color: #f1c40f;
@@ -263,17 +294,7 @@ body {
   text-transform: uppercase;
 }
 
-/* line 164, ../sass/screen.scss */
-.input-block__input {
-  border: 2px solid #ffdb4c;
-  background-color: #f1c40f;
-  width: 269px;
-  height: 44px;
-  color: #FFFFFF;
-  text-transform: lowercase;
-}
-
-/* line 172, ../sass/screen.scss */
+/* line 194, ../sass/screen.scss */
 .input-block__caption {
   font-size: 30px;
   color: #FFFFFF;
@@ -281,17 +302,54 @@ body {
   line-height: 1.2;
 }
 
-/* line 178, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .input-block__description {
   font-size: 30px;
   color: #FFFFFF;
 }
 
-/* line 182, ../sass/screen.scss */
+/* line 205, ../sass/screen.scss */
+.input-block__input {
+  border: 2px solid #ffdb4c;
+  background-color: #f1c40f;
+  width: 269px;
+  height: 35px;
+  padding: 0 12px;
+  border-radius: 5px 0 0 5px;
+}
+
+/* line 213, ../sass/screen.scss */
+.input-block__input[placeholder] {
+  color: #FFFFFF;
+  font-style: italic;
+  text-transform: lowercase;
+}
+
+/* line 218, ../sass/screen.scss */
+.input-block__input-container {
+  display: inline-flex;
+}
+
+/* line 221, ../sass/screen.scss */
+.input-block__submit-button {
+  font-size: 16px;
+  letter-spacing: 0.09em;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #ffdb4c;
+  border: 2px solid #ffdb4c;
+  font-weight: bold;
+  width: 108px;
+  height: 39px;
+  border-radius: 0 5px 5px 0;
+}
+
+/* line 235, ../sass/screen.scss */
 .info-block3 {
   height: 555px;
 }
-/* line 185, ../sass/screen.scss */
+/* line 238, ../sass/screen.scss */
 .info-block3 ul {
   display: flex;
   flex-direction: row;
@@ -302,7 +360,7 @@ body {
   height: 120px;
 }
 
-/* line 196, ../sass/screen.scss */
+/* line 249, ../sass/screen.scss */
 .info-block3__tab {
   margin: 0 auto;
   width: 1170px;
@@ -313,13 +371,13 @@ body {
   background-color: #FFFFFF;
   box-shadow: 0px 1px 4px 0px rgba(82, 84, 77, 0.16);
 }
-/* line 206, ../sass/screen.scss */
+/* line 259, ../sass/screen.scss */
 .info-block3__tab article {
   width: 520px;
   height: 311px;
 }
 
-/* line 211, ../sass/screen.scss */
+/* line 264, ../sass/screen.scss */
 .info-block3__caption {
   font-size: 18px;
   color: #f1c40f;
@@ -334,7 +392,7 @@ body {
   background-color: #f2f2f2;
 }
 
-/* line 224, ../sass/screen.scss */
+/* line 277, ../sass/screen.scss */
 .info-block3__text {
   font-size: 15px;
   color: #9d9d9d;
@@ -345,13 +403,13 @@ body {
   letter-spacing: normal;
 }
 
-/* line 233, ../sass/screen.scss */
+/* line 286, ../sass/screen.scss */
 .info-block3__caption-active {
   background-color: white;
   box-shadow: 0px 1px 4px 0px rgba(82, 84, 77, 0.16);
 }
 
-/* line 238, ../sass/screen.scss */
+/* line 291, ../sass/screen.scss */
 .footer__info-block {
   height: 525px;
   background-color: #333333;
@@ -360,7 +418,7 @@ body {
   justify-content: space-evenly;
 }
 
-/* line 245, ../sass/screen.scss */
+/* line 298, ../sass/screen.scss */
 .footer__caption {
   color: #FFFFFF;
   font-weight: bold;
@@ -369,19 +427,19 @@ body {
   line-height: 1.2;
 }
 
-/* line 252, ../sass/screen.scss */
+/* line 305, ../sass/screen.scss */
 .blog-posts {
   width: 270px;
   display: flex;
   flex-direction: column;
 }
 
-/* line 258, ../sass/screen.scss */
+/* line 311, ../sass/screen.scss */
 .blog-posts__post {
   height: 130px;
 }
 
-/* line 261, ../sass/screen.scss */
+/* line 314, ../sass/screen.scss */
 .copirights {
   letter-spacing: normal;
   line-height: 86px;

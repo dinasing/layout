@@ -154,6 +154,35 @@ body {
     hyphens: auto;
 }
 
+%button {
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: $font-stack;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #f1c40f;
+    border: #f1c40f;
+    filter: drop-shadow(0.5px 0.866px 2px rgba(82,84,77,0.16));
+}
+
+.info-block2__button {
+    @extend %button;    
+    margin-top: 33px;
+    letter-spacing: 0.175em;
+    font-size: 16px;
+    height: 32px;    
+    width: 70px;
+}
+.info-block1__button {
+    @extend %button;
+    margin-top: 40px;
+    letter-spacing: 0.09em;
+    font-size: 18px;
+    width: 130px;
+    height: 42px; 
+}
+
 .input-block {
     height: 258px;    
     background-color: rgb(241, 196, 15);
@@ -161,14 +190,7 @@ body {
     text-align: center;    
     text-transform: uppercase;
 }
-.input-block__input {
-    border: 2px solid rgb(255, 219, 76);
-    background-color: rgb(241, 196, 15);
-    width: 269px;
-    height: 44px;
-    color: #FFFFFF;
-    text-transform: lowercase;
-}
+
 .input-block__caption {
     font-size: 30px;
     color: #FFFFFF;
@@ -179,6 +201,37 @@ body {
     font-size: 30px;
     color: #FFFFFF;
 }
+
+.input-block__input {
+    border: 2px solid rgb(255, 219, 76);
+    background-color: rgb(241, 196, 15);
+    width: 269px;
+    height: 35px;
+    padding: 0 12px;   
+    border-radius: 5px 0 0 5px;
+}
+.input-block__input[placeholder] {
+    color: #FFFFFF;
+    font-style: italic;    
+    text-transform: lowercase;
+}
+.input-block__input-container {
+    display: inline-flex;
+}
+.input-block__submit-button {
+    font-size: 16px;
+    letter-spacing: 0.09em;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #ffdb4c;
+    border: 2px solid #ffdb4c;
+    font-weight: bold;
+    width: 108px;
+    height: 39px;
+    border-radius: 0 5px 5px 0;
+}
+  
 .info-block3 {
     height: 555px;
  
