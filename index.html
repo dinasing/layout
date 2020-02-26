@@ -34,8 +34,12 @@
     </header>
     <section class="banner">
         <div class="banner__text">
+            
+            <img class="banner__arrow banner__arrow-left " src="./src/images/arrow-left.svg" alt="left">
             <h2 class="banner__caption">ipsum dolor sit amet lat</h2>
-            <p class="banner__description">Aliquam tincidunt mauris eu risus</p>
+            <p class="banner__description">Aliquam tincidunt mauris eu risus</p>           
+            
+            <img class="banner__arrow banner__arrow-right " src="./src/images/arrow-right.svg" alt="right">
         </div>
     </section>
     <section class="info-block1">
@@ -54,23 +58,43 @@
     <section class="info-block2">
         <ul>
             <li>
-                <h4 class="info-block2__caption">Cestibulum auct</h4>
-                <hr>
-                <p class="info-block2__description">Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, euin vulputate magna eros lipsum</p>
-                <button class="info-block2__button">more</button>
+                <div>
+                    <div class="info-block2__icon-circle">
+                        <img src="./src/images/user.svg" alt="user" class="info-block2__icon">
+                    </div>
+                </div>
+                
+                <div class="info-block2__text">
+                    <h4 class="info-block2__caption">Cestibulum auct</h4>
+                    <p class="info-block2__description">Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, euin vulputate magna eros lipsum</p>
+                    <button class="info-block2__button">more</button>
+                </div>
             </li>
             <li>
-                <h4 class="info-block2__caption">Vetae facillis</h4>
-                <hr>
-                <p class="info-block2__description">Craesent dapibus, neque id cursus faucibus, tortor neque egestas augue, euin vulputate magna eros lipsum</p>
-                <button class="info-block2__button">more</button>
+                <div>
+                    <div class="info-block2__icon-circle">
+                        <img src="./src/images/clock.svg" alt="clock" class="info-block2__icon">
+                    </div>
+                </div>
+                
+                <div class="info-block2__text">
+                    <h4 class="info-block2__caption">Vetae facillis</h4>
+                    <p class="info-block2__description">Craesent dapibus, neque id cursus faucibus, tortor neque egestas augue, euin vulputate magna eros lipsum</p>
+                    <button class="info-block2__button">more</button>
+                </div>
             </li>
             <li>
-
-                <h4 class="info-block2__caption">integre fusce</h4>
-                <hr>
-                <p class="info-block2__description">Jraesent dapibus, neque id cursus faucibus, tortor neque egestas augue, euin vulputate magna eros lipsum</p>
-                <button class="info-block2__button">more</button>
+                <div>
+                    <div class="info-block2__icon-circle">
+                        <img src="./src/images/tag.svg" alt="tag" class="info-block2__icon">
+                    </div>
+                </div>
+                
+                <div class="info-block2__text">
+                    <h4 class="info-block2__caption">integre fusce</h4>                
+                    <p class="info-block2__description">Jraesent dapibus, neque id cursus faucibus, tortor neque egestas augue, euin vulputate magna eros lipsum</p>
+                    <button class="info-block2__button">more</button>
+                </div>
             </li>
         </ul>
     </section>
@@ -112,68 +136,72 @@
     </section>   
     <footer >
         <div class="footer__info-block">
-            <article>
+            <article class="blog-posts">
                 <h3 class="footer__caption">blog posts</h3>
                 <ul>
                     <li>
                         <div class="blog-posts__post"> 
                             <img src="./src/images/blogPostAuthor1.png" alt="author">
-                            <p class="">Aug / 25 / 2013</p>
-                            <p class="">Cohn Doe</p>
-                            <p class="">Praesent dapibus, neque id cursus faucibus, tortor ...</p>
-                            <hr>
+                            <div class="blog-posts__text">
+                                <p class="blog-posts__date">Aug / 25 / 2013</p>
+                                <p class="blog-posts__author-name">Cohn Doe</p>
+                                <p class="blog-posts__preview">Praesent dapibus, neque id cursus faucibus, tortor ...</p>
+                            </div>
                         </div>
                     </li>
                     <li>
                         <div class="blog-posts__post">
                             <img src="./src/images/blogPostAuthor2.png" alt="author">
-                            <p class="">Aug / 25 / 2013</p>
-                            <p class="">Cohn Doe</p>
-                            <p class="">Praesent dapibus, neque id cursus faucibus, tortor ...</p>
-                            <hr>
+                                <div class="blog-posts__text">
+                                <p class="blog-posts__date">Aug / 25 / 2013</p>
+                                <p class="blog-posts__author-name">Cohn Doe</p>
+                                <p class="blog-posts__preview">Praesent dapibus, neque id cursus faucibus, tortor ...</p>
+                        </div>
                         </div>
                     </li>
                     <li>
-                        <div class="blog-posts__post">
+                        <div class="blog-posts__post blog-posts__post-last-child">
                             <img src="./src/images/blogPostAuthor3.png" alt="author">
-                            <p class="">Aug / 25 / 2013</p>
-                            <p class="">Cohn Doe</p>
-                            <p class="">Praesent dapibus, neque id cursus faucibus, tortor ...</p>
+                            <div class="blog-posts__text">
+                                <p class="">Aug / 25 / 2013</p>
+                                <p class="blog-posts__author-name">Cohn Doe</p>
+                                <p class="blog-posts__preview">Praesent dapibus, neque id cursus faucibus, tortor ...</p>
+                            </div>
                     </div></li>
                 </ul>
             </article>
-            <article>
+            <article class="twitter-posts">
                 <h3 class="footer__caption">twitter posts</h3>
                 <ul>
-                    <li>
-                        <p>@raflmlt</p>
-                        <p>Morbi interdum mollis sapien sed ac risus. Phasellus lacinia</p>
+                    <li class="twitter-posts__post">
+                        <p class="twitter-posts__username">@raflmlt</p>
+                        <p class="twitter-posts__preview">Morbi interdum mollis sapien sed ac risus. Phasellus lacinia</p>
                     </li>
-                    <li>
-                        <p>@johndoe</p>
-                        <p>Morbi interdum mollis sapien sed ac risus. Phasellus lacinia</p>
+                    <li class="twitter-posts__post">
+                        <p class="twitter-posts__username">@johndoe</p>
+                        <p class="twitter-posts__preview">Morbi interdum mollis sapien sed ac risus. Phasellus lacinia</p>
                     </li>
-                    <li>
-                        <p>@amanda</p>
-                        <p>Morbi interdum mollis sapien sed ac risus. Phasellus lacinia</p>
+                    <li class="twitter-posts__post">
+                        <p class="twitter-posts__username">@amanda</p>
+                        <p class="twitter-posts__preview">Morbi interdum mollis sapien sed ac risus. Phasellus lacinia</p>
                     </li>
-                    <li>
-                        <p>@peter</p>
-                        <p>Morbi interdum mollis sapien sed ac risus. Phasellus lacinia</p>
+                    <li class="twitter-posts__post">
+                        <p class="twitter-posts__username">@peter</p>
+                        <p class="twitter-posts__preview">Morbi interdum mollis sapien sed ac risus. Phasellus lacinia</p>
                     </li>
                 </ul>
             </article>            
-            <article>
+            <article class="quick-contact ">
                 <h3 class="footer__caption">quick contact</h3>
-                <img src="./src/images/map.png" alt="map">
-                <p>Address</p>
-                <p>Building name, some street name, some city name, country</p>
-                <p>info@sitename.com / (000) 888 888 8888</p>
+                <img class="quick-contact__map" src="./src/images/map.png" alt="map">
+                <p class="quick-contact__address">Address</p>
+                <p class="quick-contact__address-content">Building name, some street name, some city name, country</p>
+                <p class="quick-contact__contact">info@sitename.com / (000) 888 888 8888</p>
             </article>
         </div>
         
     <div class="copyrights"> 
-        <p>Copyryght(c) website name.<span class="copiryghts__designed-by"> Designed by: www.alltemplateneeds.com</span> / images from: http://wallpaperswide.com/ www.phototrack.net</p>
+        <p>Copyright(c) website name.<span class="copyrights__designed-by"> Designed by: www.alltemplateneeds.com</span> / images from: http://wallpaperswide.com/ www.phototrack.net</p>
     </div>
 </footer>
 </body>
