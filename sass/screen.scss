@@ -187,7 +187,6 @@ body {
     font-weight: normal;  
 }
 .info-block2 {
-    // display: flex;
     height: 363px;
     ul{
         display: flex;
@@ -350,7 +349,7 @@ body {
     height: 375px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #FFFFFF;
     box-shadow: 0px 1px 4px 0px rgba(82, 84, 77, 0.16);
 
@@ -383,7 +382,11 @@ body {
 .info-block3__caption:hover {
     box-shadow: 0px -1px 4px 0px rgba(241, 196, 15, 0.56);
 }
-
+.info-block3__devider {
+    content: '';
+    height:  311px;;
+    border: 1px solid #f2f2f2;
+}
 .info-block3__text {
     font-size: 15px;
     color: rgb(157, 157, 157);
