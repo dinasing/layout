@@ -250,6 +250,12 @@ body {
     border: #f1c40f;
     cursor: pointer;
     filter: drop-shadow(0.5px 0.866px 2px rgba(82,84,77,0.16));
+   
+}
+%button, 
+%button:active, 
+%button:focus {
+    outline: none;
 }
 %button:hover {
     box-shadow: 0px 1px 4px 0px rgba(241, 196, 15, 0.56);
@@ -303,7 +309,9 @@ body {
     border-radius: 5px 0 0 5px;
     color: #FFFFFF;
 }
-
+.input-block__input:active, .input-block__input:focus, .input-block__submit-button:active, .input-block__submit-button:focus{
+    outline: none;
+}
 .input-block__input::placeholder  {
     color: #FFFFFF;
     font-style: italic;    
@@ -458,7 +466,6 @@ body {
     margin-top: 2px;
     margin-bottom: 5px;
 
-    
 }
 .blog-posts__preview {
     font-size: 15px;    
