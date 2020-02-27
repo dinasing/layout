@@ -416,16 +416,17 @@ body {
     text-transform: uppercase;
     padding-bottom: 26px;
     border-bottom: 1px solid #3f3f3f;  
+    letter-spacing: 0.04em;
 }
 .blog-posts {
-    width: 262px;
+    width: 270px;
     display: flex;
     flex-direction: column;
     border-bottom: 1px solid #3f3f3f;
    
 }
 .blog-posts__post {
-    height: 130px;  
+    height: 129px;  
     border-bottom: 1px solid #3f3f3f;
     font-size: 12px;    
     line-height: 1.2; 
@@ -443,17 +444,24 @@ body {
 }
 .blog-posts__date {
     color: #f1c40f; 
+    line-height: 1.2;
+    margin-top: 4px;
 }
 .blog-posts__author-name {
     font-size: 15px;  
     font-weight: bold;
     text-decoration: underline;
+    margin-top: 2px;
+    margin-bottom: 5px;
+
+    
 }
 .blog-posts__preview {
-    font-size: 15px;      
+    font-size: 15px;    
+    letter-spacing: 0.02em;  
 }
 .twitter-posts {
-    width: 270px;
+    width: 265px;
     font-size: 15px;
 }
 .twitter-posts__post {
@@ -471,6 +479,7 @@ body {
 .twitter-posts__preview {
     width: 213px;
     color: #9d9d9d;
+    letter-spacing: 0.02em;
 }
 
 .quick-contact {
@@ -490,10 +499,12 @@ body {
 .quick-contact__address-content {
     color: #9d9d9d;
     font-weight: normal;
+    letter-spacing: 0.02em;
 }
 .quick-contact__contact {
     margin-top: 22px;
     color: #f1c40f;
+    letter-spacing: 0.7px;
 }
 .copyrights {
     letter-spacing: normal;

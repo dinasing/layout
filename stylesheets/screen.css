@@ -556,19 +556,20 @@ body {
   text-transform: uppercase;
   padding-bottom: 26px;
   border-bottom: 1px solid #3f3f3f;
+  letter-spacing: 0.04em;
 }
 
-/* line 420, ../sass/screen.scss */
+/* line 421, ../sass/screen.scss */
 .blog-posts {
-  width: 262px;
+  width: 270px;
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid #3f3f3f;
 }
 
-/* line 427, ../sass/screen.scss */
+/* line 428, ../sass/screen.scss */
 .blog-posts__post {
-  height: 130px;
+  height: 129px;
   border-bottom: 1px solid #3f3f3f;
   font-size: 12px;
   line-height: 1.2;
@@ -579,40 +580,45 @@ body {
   justify-content: space-between;
 }
 
-/* line 438, ../sass/screen.scss */
+/* line 439, ../sass/screen.scss */
 .blog-posts__post-last-child {
   border: none;
 }
 
-/* line 441, ../sass/screen.scss */
+/* line 442, ../sass/screen.scss */
 .blog-posts__text {
   width: 175px;
 }
 
-/* line 444, ../sass/screen.scss */
+/* line 445, ../sass/screen.scss */
 .blog-posts__date {
   color: #f1c40f;
+  line-height: 1.2;
+  margin-top: 4px;
 }
 
-/* line 447, ../sass/screen.scss */
+/* line 450, ../sass/screen.scss */
 .blog-posts__author-name {
   font-size: 15px;
   font-weight: bold;
   text-decoration: underline;
-}
-
-/* line 452, ../sass/screen.scss */
-.blog-posts__preview {
-  font-size: 15px;
-}
-
-/* line 455, ../sass/screen.scss */
-.twitter-posts {
-  width: 270px;
-  font-size: 15px;
+  margin-top: 2px;
+  margin-bottom: 5px;
 }
 
 /* line 459, ../sass/screen.scss */
+.blog-posts__preview {
+  font-size: 15px;
+  letter-spacing: 0.02em;
+}
+
+/* line 463, ../sass/screen.scss */
+.twitter-posts {
+  width: 265px;
+  font-size: 15px;
+}
+
+/* line 467, ../sass/screen.scss */
 .twitter-posts__post {
   background-image: url("../src/images/twitter.svg");
   background-position: 0px 26px;
@@ -622,31 +628,32 @@ body {
   line-height: 1.2;
 }
 
-/* line 467, ../sass/screen.scss */
+/* line 475, ../sass/screen.scss */
 .twitter-posts__username {
   color: #f1c40f;
   font-weight: bold;
 }
 
-/* line 471, ../sass/screen.scss */
+/* line 479, ../sass/screen.scss */
 .twitter-posts__preview {
   width: 213px;
   color: #9d9d9d;
+  letter-spacing: 0.02em;
 }
 
-/* line 476, ../sass/screen.scss */
+/* line 485, ../sass/screen.scss */
 .quick-contact {
   width: 570px;
   font-size: 15px;
 }
 
-/* line 480, ../sass/screen.scss */
+/* line 489, ../sass/screen.scss */
 .quick-contact__map {
   margin-top: 28px;
   box-shadow: 0px 1px 4px 0px rgba(82, 84, 77, 0.16);
 }
 
-/* line 484, ../sass/screen.scss */
+/* line 493, ../sass/screen.scss */
 .quick-contact__address {
   line-height: 1.2;
   color: #9d9d9d;
@@ -654,19 +661,21 @@ body {
   font-weight: bold;
 }
 
-/* line 490, ../sass/screen.scss */
+/* line 499, ../sass/screen.scss */
 .quick-contact__address-content {
   color: #9d9d9d;
   font-weight: normal;
+  letter-spacing: 0.02em;
 }
 
-/* line 494, ../sass/screen.scss */
+/* line 504, ../sass/screen.scss */
 .quick-contact__contact {
   margin-top: 22px;
   color: #f1c40f;
+  letter-spacing: 0.7px;
 }
 
-/* line 498, ../sass/screen.scss */
+/* line 509, ../sass/screen.scss */
 .copyrights {
   letter-spacing: normal;
   line-height: 86px;
@@ -677,7 +686,7 @@ body {
   color: #FFFFFF;
 }
 
-/* line 507, ../sass/screen.scss */
+/* line 518, ../sass/screen.scss */
 .copyrights__designed-by {
   color: #000000;
 }
