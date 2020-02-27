@@ -221,17 +221,19 @@ body {
     hyphens: auto;
     margin-top: 33px;
 }
-
 .info-block2__icon-circle {
     background: #ffffff;
     border-radius: 50%;
     width: 73px;
     height: 73px;
     box-shadow: 0px 1px 4px 0px rgba(82, 84, 77, 0.16);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
 }
 .info-block2__icon {
-    margin: 25px;
-    height: 21px;
+    width: 21px;
 }
 
 %button {
@@ -372,6 +374,7 @@ body {
     width: 14px;
     margin-right: 14px;
     margin-top: 2px;
+    margin-left: -15px;
 }
 .info-block3__caption:hover {
     box-shadow: 0px -1px 4px 0px rgba(241, 196, 15, 0.56);
