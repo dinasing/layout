@@ -1,26 +1,5 @@
 @import "compass/reset";
-@font-face{
-    font-family: 'SourceSansPro';
-    src: url('../src/fonts/SourceSansPro-Regular.ttf');
-    font-weight: normal;    
-}
-@font-face{
-    font-family: 'SourceSansPro';
-    src: url('../src/fonts/SourceSansPro-Black.ttf');
-    font-weight: bold;    
-}
-@font-face{
-    font-family: 'SourceSansPro';
-    src: url('../src/fonts/SourceSansPro-Italic.ttf');
-    font-style: italic;
-}
-@font-face{
-    font-family: 'SourceSansPro';
-    src: url('../src/fonts/SourceSansPro-Light.ttf');
-    font-weight: lighter;
-}
-
-$font-stack: "SourceSansPro", sans-serif;
+@import "fonts";
 body {
     background-color: #fafafa;
     width: 1230px;
@@ -351,6 +330,10 @@ body {
         height: 120px;
     }
     
+    &__tab {
+        margin: 0 auto;
+
+    }
 }  
 .info-block3__tab {
     margin: 0 auto;
