@@ -483,6 +483,13 @@ body {
         color: #9d9d9d;
         letter-spacing: 0.02em;
     }
+    a {
+        color: #f1c40f;     
+        text-decoration: none; 
+    }
+    a:hover, a:active {
+        text-decoration: underline; 
+    }
 }
 
 
