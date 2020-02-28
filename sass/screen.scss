@@ -500,9 +500,16 @@ body {
         letter-spacing: 0.02em;
     }
     &__contact {
-        margin-top: 22px;
         color: #f1c40f;
+        margin-top: 22px;
         letter-spacing: 0.7px;
+        a {
+            color: #f1c40f;
+            text-decoration: none;
+        }
+        a:active {
+            text-decoration: underline;
+        }
     }
 }
 

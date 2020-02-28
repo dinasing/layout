@@ -647,12 +647,21 @@ body {
 }
 /* line 502, ../sass/screen.scss */
 .quick-contact__contact {
-  margin-top: 22px;
   color: #f1c40f;
+  margin-top: 22px;
   letter-spacing: 0.7px;
 }
+/* line 506, ../sass/screen.scss */
+.quick-contact__contact a {
+  color: #f1c40f;
+  text-decoration: none;
+}
+/* line 510, ../sass/screen.scss */
+.quick-contact__contact a:active {
+  text-decoration: underline;
+}
 
-/* line 509, ../sass/screen.scss */
+/* line 516, ../sass/screen.scss */
 .copyrights {
   letter-spacing: 0.1px;
   line-height: 81px;
@@ -662,7 +671,7 @@ body {
   font-weight: bold;
   color: #FFFFFF;
 }
-/* line 517, ../sass/screen.scss */
+/* line 524, ../sass/screen.scss */
 .copyrights .bg {
   background-color: #f1c40f;
   position: absolute;
@@ -672,7 +681,7 @@ body {
   height: 85px;
   z-index: 132;
 }
-/* line 527, ../sass/screen.scss */
+/* line 534, ../sass/screen.scss */
 .copyrights__designed-by {
   color: #000000;
 }
