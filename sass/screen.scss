@@ -37,10 +37,7 @@ body {
 
 .header {
     height: 225px;
-    &__nav {
-        width: 680px;
-        margin: 38px auto ;
-    }
+
     ul {
         display: flex;
         justify-content: space-between;
@@ -49,9 +46,6 @@ body {
         text-align: center;
         
     }
-    &__nav-first-item { color : #f1c40f;}
-    &__nav-first-item:hover { color : #716a72;}
-
     a {
         text-decoration: none; 
         color: #716a72;
@@ -61,6 +55,7 @@ body {
     a:hover {
         color: #f1c40f;
     }
+
     &__logo {
         padding: 53px 0 22px 0;
         width: 285px;
@@ -75,6 +70,16 @@ body {
         border-bottom: 1px solid #eaeaea;
         letter-spacing: 0.175em;
     }
+    &__nav {
+        width: 680px;
+        margin: 38px auto ;
+    }
+}
+a.header__nav-first-item {
+    color : #f1c40f;
+}
+a.header__nav-first-item:hover {
+    color : #716a72;
 }
 
 .banner {    
@@ -82,7 +87,9 @@ body {
     flex-direction: column-reverse;
     height: 547px;
     background: url('../src/images/banner.png');
-    background-repeat: no-repeat;    
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
     
     &__text{
         position: relative;
@@ -527,9 +534,10 @@ body {
 
 .copyrights {
     letter-spacing: 0.1px;
-    line-height: 81px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
     height: 86px;
-    text-align: center;
     background-color: #f1c40f;
     font-weight: bold;
     color: #FFFFFF;
