@@ -702,3 +702,23 @@ body {
 .copyrights__designed-by {
   color: #000000;
 }
+/* line 548, ../sass/screen.scss */
+.copyrights__designed-by a {
+  color: #000000;
+}
+/* line 552, ../sass/screen.scss */
+.copyrights__images-source {
+  color: #FFFFFF;
+}
+/* line 554, ../sass/screen.scss */
+.copyrights__images-source a {
+  color: #FFFFFF;
+}
+/* line 558, ../sass/screen.scss */
+.copyrights a {
+  text-decoration: none;
+}
+/* line 561, ../sass/screen.scss */
+.copyrights a:active, .copyrights a:hover {
+  text-decoration: underline;
+}
