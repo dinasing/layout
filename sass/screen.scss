@@ -314,7 +314,6 @@ a.header__nav-first-item:hover {
         height: 32px;    
         width: 70px;
     }
-    
         
     @media screen and (max-width: 650px) {
         height: 900px;
@@ -394,7 +393,6 @@ a.header__nav-first-item:hover {
     @media screen and (max-width: 400px) {
         &__submit-button, &__input {
             width: 50%;
-            // border-radius: 5px;
         }
     }
 }
@@ -415,7 +413,7 @@ a.header__nav-first-item:hover {
     &__tab {
         margin: 0 auto;
         width: 95.1%;
-        height: 375px;
+        height: 67.6%;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -430,7 +428,25 @@ a.header__nav-first-item:hover {
                 width: 100%;
             }
         }
+
     }
+    
+    @media screen and (max-width: 568px) {
+        height: 915px;
+        
+        &__tab {
+            flex-direction: column;
+            align-content: space-around;
+            height: 80%;
+        }
+        article {
+            width: 91.5%;
+        }
+        &__devider {
+            display: none;
+        }
+    }
+
     &__tab-nav {
         width: 95.1%;
     }
@@ -469,6 +485,7 @@ a.header__nav-first-item:hover {
         content: '';
         height:  311px;;
         border: 1px solid #f2f2f2;
+
     }
     &__text {
         font-size: 15px;
@@ -476,7 +493,7 @@ a.header__nav-first-item:hover {
         line-height: 1.6;
         text-align: left;
         width: 100%;
-        height: 86px;
+        height: 16%;
         letter-spacing: normal;    
         margin-top: 20px; 
     }
