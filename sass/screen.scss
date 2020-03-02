@@ -526,14 +526,18 @@ a.header__nav-first-item:hover {
         display: flex;
         justify-content: space-evenly;
         letter-spacing: normal;
-        
-    @media screen and (max-width: 768px) {
-        padding:0 10px 30px 20px;
-        flex-wrap: wrap;
-        height: auto;
-        .blog-posts, .twitter-posts, .quick-contact {
-            width: auto;
+    
+        @media screen and (max-width: 1024px)  {
+            flex-wrap: wrap;
+            height: auto;
         }
+        @media screen and (max-width: 768px) {
+            padding:0 10px 30px 20px;
+            flex-wrap: wrap;
+            height: auto;
+            .blog-posts, .twitter-posts, .quick-contact {
+                width: auto;
+            }
     }
     
     }
@@ -594,6 +598,18 @@ a.header__nav-first-item:hover {
     a:hover, a:active {
         text-decoration: none;
     }
+
+    @media screen and (max-width: 1024px) and  (min-width: 768px)  {
+        width: 90%;
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-self: start;
+        }
+        &__post {
+            border-bottom: none;
+        } 
+    }
 }
 .twitter-posts {
     width: 21.5%;
@@ -622,6 +638,10 @@ a.header__nav-first-item:hover {
     }
     a:hover, a:active {
         text-decoration: underline; 
+    }
+    @media screen and (max-width: 1024px)  {
+        width: 40%;
+        order: -1;
     }
 }
 
@@ -658,6 +678,10 @@ a.header__nav-first-item:hover {
     }
     img {
         width: 100%;
+    }
+    @media screen and (max-width: 1024px)  {
+        width: 50%;
+        order: -1;
     }
 }
 
