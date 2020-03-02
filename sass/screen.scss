@@ -209,6 +209,7 @@ a.header__nav-first-item:hover {
 .info-block2 {
     width: 100%;
     height: 363px;
+
     ul{
         display: flex;
         justify-content: space-evenly;
@@ -224,7 +225,7 @@ a.header__nav-first-item:hover {
         
     &__text {
         width: 73.9%;
-        height: 200px;
+        height: 94.1%;
     }
     &__caption {
         text-transform: uppercase;
@@ -232,9 +233,12 @@ a.header__nav-first-item:hover {
         color: rgb(113, 106, 114);
         font-weight: bold;
         border-bottom: 1px solid #e4e4e4;
-        padding-bottom: 31px;
-        line-height: 0.6;
+        padding-bottom: 25px;
+        line-height: 1;
         letter-spacing: normal;
+        @media (max-width: 1000px) {
+            height: 53px;
+        }
     }
     &__description {
         color: rgb(157, 157, 157);
@@ -267,6 +271,20 @@ a.header__nav-first-item:hover {
         font-size: 16px;
         height: 32px;    
         width: 70px;
+    }
+    
+        
+    @media screen and (max-width: 650px) {
+        height: 900px;
+        ul {
+            flex-direction: column;
+        }
+        li {
+            width: 90%;
+        }
+        &__caption {
+            height: 27px;
+        }
     }
 
 }
