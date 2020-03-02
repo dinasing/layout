@@ -134,6 +134,10 @@ a.header__nav-first-item:hover {
         height: auto;
         right: 31px;
     }
+    @media screen and (max-width: 650px) {
+        display: none;
+    }
+        
 } 
 .info-block1 {
     width: 100%;
