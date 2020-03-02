@@ -1,6 +1,11 @@
 @import "compass/reset";
 @import "fonts";
 
+body {
+    @media screen and (max-width: 768px) {
+        overflow-x: hidden;
+    }
+}
 %button {
     border-radius: 5px;
     text-transform: uppercase;
@@ -71,14 +76,41 @@ body {
     &__nav {
         width: 55.3%;
         margin: 38px auto ;
+        @media screen and (max-width: 768px) {
+            width: 90%;
+        }
+        @media screen and (max-width: 512px) {
+            width: 100%;
+            margin: 0; 
+            ul {
+                flex-direction: column;
+                padding: 10px 0;
+            }
+            li {
+                display: block;
+                padding: 5px 0;
+                a {                    
+                    border-bottom: 1px solid #eaeaea;
+                }
+                a.header__nav-last-item {
+                    border: none;
+                }
+            }
+        }
     }
+    @media screen and (max-width: 512px) {
+        height: 276px;
+    }
+
 }
+
 a.header__nav-first-item {
     color : #f1c40f;
 }
 a.header__nav-first-item:hover {
     color : #716a72;
 }
+
 
 .banner {    
     width: 100%;
@@ -149,16 +181,15 @@ a.header__nav-first-item:hover {
     color: #d1d1d1;
             
     &__article1 {
-        margin-top: 71px;
+        margin-top: 5.6%;;
         width: 48.8%;
         text-transform: uppercase;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-
+        text-align: right;
     }
     &__caption {
-        text-align: right;
         font-size: 30px;
         color: rgb(241, 196, 15);
         font-weight: bold;
@@ -166,7 +197,6 @@ a.header__nav-first-item:hover {
         line-height: 1.2;      
     }
     &__description {
-        text-align: right;
         font-size: 24px;
         letter-spacing: normal;
         font-weight: lighter;
@@ -175,7 +205,7 @@ a.header__nav-first-item:hover {
         width: 77.6%;
     }
     &__article2 {
-        margin-top: 76px;
+        margin-top: 6%;
         width: 48.8%;
         text-align: left;
         letter-spacing: normal;
@@ -205,6 +235,18 @@ a.header__nav-first-item:hover {
         width: 130px;
         height: 42px; 
     }
+    @media screen and (max-width: 1000px) {
+        height: 424px;
+    }
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        article {
+            width: 90%;
+            text-align: center;
+            flex-direction: column;
+        }
+    }
+
 }
 .info-block2 {
     width: 100%;
