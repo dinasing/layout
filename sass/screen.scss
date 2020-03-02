@@ -526,6 +526,18 @@ a.header__nav-first-item:hover {
         display: flex;
         justify-content: space-evenly;
         letter-spacing: normal;
+        
+    @media screen and (max-width: 768px) {
+        padding:0 10px 30px 20px;
+        // display: flex;
+        // flex-direction: column-reverse;
+        // flex-flow: column wrap;
+        flex-wrap: wrap;
+        height: auto;
+        .blog-posts, .twitter-posts, .quick-contact {
+            width: auto;
+        }
+    }
     }
     &__caption {
         margin-top: 55px;
@@ -537,6 +549,7 @@ a.header__nav-first-item:hover {
         border-bottom: 1px solid #3f3f3f;  
         letter-spacing: 0.04em;
     }
+
 } 
 .blog-posts {
     width: 22%;
