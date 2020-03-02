@@ -359,6 +359,7 @@ a.header__nav-first-item:hover {
         padding: 0;   
         border-radius: 5px 0 0 5px;
         color: #FFFFFF;
+        
     }
     &__input:active, &__input:focus, &__submit-button:active, &__submit-button:focus{
         outline: none;
@@ -389,6 +390,12 @@ a.header__nav-first-item:hover {
         height: 39px;
         border-radius: 0 5px 5px 0;
         cursor: pointer;
+    }
+    @media screen and (max-width: 400px) {
+        &__submit-button, &__input {
+            width: 50%;
+            // border-radius: 5px;
+        }
     }
 }
   
