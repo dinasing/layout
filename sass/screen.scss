@@ -235,16 +235,28 @@ a.header__nav-first-item:hover {
         width: 130px;
         height: 42px; 
     }
-    @media screen and (max-width: 1000px) {
-        height: 424px;
-    }
     @media screen and (max-width: 768px) {
+        display: flex;
         flex-direction: column;
+        align-items: center;
+        align-content: space-around;
+        justify-content: space-around;
+        height: auto;
+
         article {
+            margin-top: 10px;
             width: 90%;
             text-align: center;
-            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
+        &__article2  {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding-bottom: 15px;
+        }
+
     }
 
 }
