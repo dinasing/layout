@@ -312,10 +312,12 @@ a.header__nav-first-item:hover {
         display: flex;
         align-content: center;
         justify-content: center;
-
+        @media screen  and (max-width: 1024px) and (min-width: 650px) {
+            display: none;
+        }
     }
     &__icon {
-        width: 21px;
+        width: 29%;
     }
 
     &__button {
