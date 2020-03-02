@@ -529,15 +529,13 @@ a.header__nav-first-item:hover {
         
     @media screen and (max-width: 768px) {
         padding:0 10px 30px 20px;
-        // display: flex;
-        // flex-direction: column-reverse;
-        // flex-flow: column wrap;
         flex-wrap: wrap;
         height: auto;
         .blog-posts, .twitter-posts, .quick-contact {
             width: auto;
         }
     }
+    
     }
     &__caption {
         margin-top: 55px;
@@ -672,7 +670,6 @@ a.header__nav-first-item:hover {
     background-color: #f1c40f;
     font-weight: bold;
     color: #FFFFFF;
-
     &__designed-by {
         color: #000000;
         a {
@@ -688,8 +685,22 @@ a.header__nav-first-item:hover {
     a {
         text-decoration: none;
     }
-    a:active , a:hover{
+    a:active, a:hover{
         text-decoration: underline;
     }
 
+    @media screen and (max-width: 1024px) {
+        min-height: 86px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+       span {
+           display: block;
+       }
+       span.copyrights__slash {
+            display: none;
+       }
+    }
+    
 }
