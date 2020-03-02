@@ -398,9 +398,9 @@ a.header__nav-first-item:hover {
     ul { 
         display: flex;
         flex-direction: row;
-        width: 829px;
+        width: 70.9%;
         justify-content: space-between;
-        margin-left: 31px;
+        margin-left: 2.5%;
         align-items: flex-end;
         height: 120px;
     }
@@ -423,29 +423,37 @@ a.header__nav-first-item:hover {
                 width: 100%;
             }
         }
-
+    }
+    &__tab-nav {
+        width: 95.1%;
     }
         
-    &__caption {
+    &__caption {        
+        width: 32.5%;
         font-size: 18px;
         color: rgb(241, 196, 15);
         line-height: 60px;
         text-transform: uppercase;
         font-weight: bold;
         letter-spacing: normal;
-        width: 270px;
         height: 60px;
         text-align: center;
         background-color: rgb(242, 242, 242);
         cursor: pointer;
         letter-spacing: 0.04em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 1;
+        @media screen and (max-width: 1024px) {
+            font-size: 0;
+        }
     }
     &__caption__icon {
         position: relative;
         width: 14px;
-        right: 18px;
+        right: 5.2%;
         top: 2px;
-        
     }
     &__caption:hover {
         box-shadow: 0px -1px 4px 0px rgba(241, 196, 15, 0.56);
@@ -470,7 +478,6 @@ a.header__nav-first-item:hover {
         box-shadow: 0px -2px 4px 0px rgba(82, 84, 77, 0.16);
         z-index: 1;
     }
-
 } 
 
 .footer {
