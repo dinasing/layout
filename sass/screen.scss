@@ -538,7 +538,7 @@ a.header__nav-first-item:hover {
             flex-wrap: wrap;
             height: auto;
             .blog-posts, .twitter-posts, .quick-contact {
-                width: auto;
+                width: 95%;
             }
     }
     
@@ -645,6 +645,14 @@ a.header__nav-first-item:hover {
         width: 40%;
         order: -1;
     }
+    @media screen and (width: 768px) {
+        order: 0;
+        ul {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+
 }
 
 
@@ -685,6 +693,7 @@ a.header__nav-first-item:hover {
         width: 50%;
         order: -1;
     }
+
 }
 
 .copyrights {
