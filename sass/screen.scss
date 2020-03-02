@@ -390,7 +390,8 @@ a.header__nav-first-item:hover {
         border-radius: 0 5px 5px 0;
         cursor: pointer;
     }
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 414px) {
+        height: 308px;
         &__submit-button, &__input {
             width: 50%;
         }
