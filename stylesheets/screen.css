@@ -800,14 +800,18 @@ a.header__nav-first-item:hover {
   .blog-posts__post {
     border-bottom: none;
   }
+  /* line 614, ../sass/screen.scss */
+  .blog-posts__text {
+    width: 60%;
+  }
 }
 
-/* line 616, ../sass/screen.scss */
+/* line 619, ../sass/screen.scss */
 .twitter-posts {
   width: 21.5%;
   font-size: 15px;
 }
-/* line 619, ../sass/screen.scss */
+/* line 622, ../sass/screen.scss */
 .twitter-posts__post {
   background-image: url("../src/images/twitter.svg");
   background-position: 0px 26px;
@@ -817,95 +821,95 @@ a.header__nav-first-item:hover {
   line-height: 1.2;
   width: 80.3%;
 }
-/* line 629, ../sass/screen.scss */
+/* line 632, ../sass/screen.scss */
 .twitter-posts__username {
   color: #f1c40f;
   font-weight: bold;
 }
-/* line 633, ../sass/screen.scss */
+/* line 636, ../sass/screen.scss */
 .twitter-posts__preview {
   color: #9d9d9d;
   letter-spacing: 0.02em;
 }
-/* line 637, ../sass/screen.scss */
+/* line 640, ../sass/screen.scss */
 .twitter-posts a {
   color: #f1c40f;
   text-decoration: none;
 }
-/* line 641, ../sass/screen.scss */
+/* line 644, ../sass/screen.scss */
 .twitter-posts a:hover, .twitter-posts a:active {
   text-decoration: underline;
 }
 @media screen and (max-width: 1024px) {
-  /* line 616, ../sass/screen.scss */
+  /* line 619, ../sass/screen.scss */
   .twitter-posts {
     width: 40%;
     order: -1;
   }
 }
 @media screen and (width: 768px) {
-  /* line 616, ../sass/screen.scss */
+  /* line 619, ../sass/screen.scss */
   .twitter-posts {
     order: 0;
   }
-  /* line 650, ../sass/screen.scss */
+  /* line 653, ../sass/screen.scss */
   .twitter-posts ul {
     display: flex;
     flex-direction: row;
   }
 }
 
-/* line 659, ../sass/screen.scss */
+/* line 662, ../sass/screen.scss */
 .quick-contact {
   width: 46.3%;
   font-size: 15px;
 }
-/* line 662, ../sass/screen.scss */
+/* line 665, ../sass/screen.scss */
 .quick-contact__map {
   margin-top: 28px;
   box-shadow: 0px 1px 4px 0px rgba(82, 84, 77, 0.16);
 }
-/* line 666, ../sass/screen.scss */
+/* line 669, ../sass/screen.scss */
 .quick-contact__address {
   line-height: 1.2;
   color: #9d9d9d;
   margin-top: 22px;
   font-weight: bold;
 }
-/* line 672, ../sass/screen.scss */
+/* line 675, ../sass/screen.scss */
 .quick-contact__address-content {
   color: #9d9d9d;
   font-weight: normal;
   letter-spacing: 0.02em;
 }
-/* line 677, ../sass/screen.scss */
+/* line 680, ../sass/screen.scss */
 .quick-contact__contact {
   color: #f1c40f;
   margin-top: 22px;
   letter-spacing: 0.7px;
 }
-/* line 681, ../sass/screen.scss */
+/* line 684, ../sass/screen.scss */
 .quick-contact__contact a {
   color: #f1c40f;
   text-decoration: none;
 }
-/* line 685, ../sass/screen.scss */
+/* line 688, ../sass/screen.scss */
 .quick-contact__contact a:active, .quick-contact__contact a:hover {
   text-decoration: underline;
 }
-/* line 689, ../sass/screen.scss */
+/* line 692, ../sass/screen.scss */
 .quick-contact img {
   width: 100%;
 }
 @media screen and (max-width: 1024px) {
-  /* line 659, ../sass/screen.scss */
+  /* line 662, ../sass/screen.scss */
   .quick-contact {
     width: 50%;
     order: -1;
   }
 }
 
-/* line 699, ../sass/screen.scss */
+/* line 702, ../sass/screen.scss */
 .copyrights {
   letter-spacing: 0.1px;
   display: flex;
@@ -916,32 +920,32 @@ a.header__nav-first-item:hover {
   font-weight: bold;
   color: #ffffff;
 }
-/* line 708, ../sass/screen.scss */
+/* line 711, ../sass/screen.scss */
 .copyrights__designed-by {
   color: #000000;
 }
-/* line 710, ../sass/screen.scss */
+/* line 713, ../sass/screen.scss */
 .copyrights__designed-by a {
   color: #000000;
 }
-/* line 714, ../sass/screen.scss */
+/* line 717, ../sass/screen.scss */
 .copyrights__images-source {
   color: #ffffff;
 }
-/* line 716, ../sass/screen.scss */
+/* line 719, ../sass/screen.scss */
 .copyrights__images-source a {
   color: #ffffff;
 }
-/* line 720, ../sass/screen.scss */
+/* line 723, ../sass/screen.scss */
 .copyrights a {
   text-decoration: none;
 }
-/* line 723, ../sass/screen.scss */
+/* line 726, ../sass/screen.scss */
 .copyrights a:active, .copyrights a:hover {
   text-decoration: underline;
 }
 @media screen and (max-width: 1024px) {
-  /* line 699, ../sass/screen.scss */
+  /* line 702, ../sass/screen.scss */
   .copyrights {
     min-height: 86px;
     display: flex;
@@ -949,11 +953,11 @@ a.header__nav-first-item:hover {
     height: auto;
     text-align: center;
   }
-  /* line 733, ../sass/screen.scss */
+  /* line 736, ../sass/screen.scss */
   .copyrights span {
     display: block;
   }
-  /* line 736, ../sass/screen.scss */
+  /* line 739, ../sass/screen.scss */
   .copyrights span.copyrights__slash {
     display: none;
   }
