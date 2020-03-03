@@ -274,6 +274,9 @@ a.header__nav-first-item:hover {
         text-align: left;
         display: flex;
         justify-content: space-between;
+        @media (max-width: 1024px) {
+            width: 32%;
+        }
     }
         
     &__text {
@@ -289,7 +292,7 @@ a.header__nav-first-item:hover {
         padding-bottom: 25px;
         line-height: 1;
         letter-spacing: normal;
-        @media (max-width: 1000px) {
+        @media (max-width: 1024px) {
             height: 53px;
         }
     }
@@ -312,7 +315,8 @@ a.header__nav-first-item:hover {
         align-content: center;
         justify-content: center;
         @media screen  and (max-width: 1024px) and (min-width: 650px) {
-            display: none;
+            background: none;
+            box-shadow: none;
         }
     }
     &__icon {
