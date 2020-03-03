@@ -1,6 +1,7 @@
 @import "compass/reset";
 @import "fonts";
 @import "colors";
+@import "shadows";
 
 %button {
     border-radius: 5px;
@@ -12,7 +13,6 @@
     background-color: $emphasis_color;
     border: $emphasis_color;
     cursor: pointer;
-    filter: drop-shadow(0.5px 0.866px 2px $shadow_color);
 }
 %button, 
 %button:active, 
@@ -23,7 +23,7 @@
     color: $shadow_color;
 }
 %button:hover {
-    box-shadow: 0px 1px 4px 0px $button_shadow_color;
+    @include shadow($button_shadow_color);
 }
 
 html {
@@ -178,7 +178,7 @@ a.header__nav-first-item:hover {
 .info-block1 {
     width: 100%;
     height: 382px;
-    box-shadow: 0px 1px 4px 0px $shadow_color;
+    @include shadow($shadow_color);
     display: flex;
     justify-content: space-between;
             
@@ -313,7 +313,7 @@ a.header__nav-first-item:hover {
         border-radius: 50%;
         width: 73px;
         height: 73px;
-        box-shadow: 0px 1px 4px 0px $shadow_color;
+        @include shadow($button_shadow_color);
         display: flex;
         align-content: center;
         justify-content: center;
@@ -353,7 +353,7 @@ a.header__nav-first-item:hover {
     width: 100%;
     height: 258px;    
     background-color: $emphasis_color;
-    box-shadow: 0px 1px 4px 0px $shadow_color;
+    @include shadow($shadow_color);
     text-align: center;    
     text-transform: uppercase;
     color: $input-block_text_color;
@@ -440,7 +440,7 @@ a.header__nav-first-item:hover {
         align-items: center;
         justify-content: space-evenly;
         background-color: $info-block3_active_tab_color;
-        box-shadow: 0px 1px 4px 0px $shadow_color;
+        @include shadow($shadow_color);
     
         article {
             width: 44.4%;
@@ -531,7 +531,7 @@ a.header__nav-first-item:hover {
     &__info-block {
         height: 525px;
         background-color: $footer_bg_color;
-        box-shadow: 0px 1px 4px 0px $shadow_color;
+        @include shadow($shadow_color);
         display: flex;
         justify-content: space-evenly;
         letter-spacing: normal;
@@ -665,13 +665,12 @@ a.header__nav-first-item:hover {
 
 }
 
-
 .quick-contact {
     width: 46.3%;    
     font-size: 15px;
     &__map {
         margin-top: 28px;
-        box-shadow: 0px 1px 4px 0px $shadow_color;
+        @include shadow($shadow_color);
     }
     &__address {
         line-height: 1.2;
