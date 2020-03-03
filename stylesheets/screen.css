@@ -527,25 +527,27 @@ a.header__nav-first-item:hover {
 .input-block__input {
   border: 2px solid #ffdb4c;
   background-color: #f1c40f;
-  width: 260px;
+  width: 240px;
   height: 35px;
   padding: 0;
   border-radius: 5px 0 0 5px;
+  padding-left: 20px;
+  color: #ffffff;
+  font-style: italic;
 }
-/* line 384, ../sass/screen.scss */
+/* line 385, ../sass/screen.scss */
 .input-block__input:active, .input-block__input:focus, .input-block__submit-button:active, .input-block__submit-button:focus {
   outline: none;
 }
-/* line 387, ../sass/screen.scss */
+/* line 388, ../sass/screen.scss */
 .input-block__submit-button:active {
   color: rgba(82, 84, 77, 0.16);
 }
-/* line 390, ../sass/screen.scss */
+/* line 391, ../sass/screen.scss */
 .input-block__input::placeholder {
   color: #ffffff;
   font-style: italic;
   text-transform: lowercase;
-  padding-left: 20px;
 }
 /* line 396, ../sass/screen.scss */
 .input-block__input-container {

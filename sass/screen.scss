@@ -374,12 +374,13 @@ a.header__nav-first-item:hover {
     &__input {
         border: 2px solid $input_submit_color;
         background-color: $emphasis_color;
-        width: 260px;
+        width: 240px;
         height: 35px;
         padding: 0;   
         border-radius: 5px 0 0 5px;
-     
-        
+        padding-left: 20px;
+        color: $input-block_text-color;
+        font-style: italic;  
     }
     &__input:active, &__input:focus, &__submit-button:active, &__submit-button:focus {
         outline: none;
@@ -388,10 +389,9 @@ a.header__nav-first-item:hover {
         color: $shadow_color;
     }
     &__input::placeholder  {
-        color: $input-block_text-color;;
+        color: $input-block_text-color;
         font-style: italic;    
         text-transform: lowercase;
-        padding-left: 20px;
     }
     &__input-container {
         margin-top: 27px;
