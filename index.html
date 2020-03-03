@@ -27,7 +27,7 @@
                     <a href="">projects</a>
                 </li>
                 <li>
-                    <a href="">contact</a>
+                    <a class="header__nav-last-item" href="">contact</a>
                 </li>
             </ul>
         </nav>
@@ -108,27 +108,29 @@
         </div>
     </section>
     <section class="info-block3">
-        <ul>
-            <li>
-                <h4 class="info-block3__caption  info-block3__caption-active ">
-                    <img class="info-block3__caption__icon" src="./src/images/flag.svg" alt="">
-                    Sed egest asteet</h4>
-            </li>
-
-            <li>
-                
-                <h4 class="info-block3__caption">
-                    <img class="info-block3__caption__icon" src="./src/images/ink.svg" alt="">
-                    Morbi interdum
-                </h4>
-            </li>
-            <li>
-                <h4 class="info-block3__caption">
-                    <img class="info-block3__caption__icon" src="./src/images/magnet.svg" alt="">
-                    Morbi interdum
-                </h4>
-            </li>
-        </ul>
+        <div class="info-block3__tab-nav">
+            <ul>
+                <li class="info-block3__caption  info-block3__caption-active ">
+                    <h4>
+                        <img class="info-block3__caption__icon" src="./src/images/flag.svg" alt="">
+                        Sed egest asteet</h4>
+                </li>
+    
+                <li class="info-block3__caption">
+                    <h4>
+                        <img class="info-block3__caption__icon" src="./src/images/ink.svg" alt="">
+                        Morbi interdum
+                    </h4>
+                </li>
+                <li  class="info-block3__caption">
+                    <h4>
+                        <img class="info-block3__caption__icon" src="./src/images/magnet.svg" alt="">
+                        Morbi interdum
+                    </h4>
+                </li>
+            </ul>
+        </div>
+        
         <div class="info-block3__tab">               
             <article class="">
                 <img src="./src/images/girl1.png" alt="girl">
@@ -144,7 +146,7 @@
             </article>
         </div>
     </section>   
-    <footer >
+    <footer class="footer">
         <div class="footer__info-block">
             <article class="blog-posts">
                 <h3 class="footer__caption">blog posts</h3>
@@ -154,7 +156,7 @@
                             <img src="./src/images/blogPostAuthor1.png" alt="author">
                             <div class="blog-posts__text">
                                 <p class="blog-posts__date">Aug / 25 / 2013</p>
-                                <p class="blog-posts__author-name">Cohn Doe</p>
+                                <p class="blog-posts__author-name"><a href="">Cohn Doe</a></p>
                                 <p class="blog-posts__preview">Praesent dapibus, neque id cursus faucibus, tortor ...</p>
                             </div>
                         </div>
@@ -164,7 +166,7 @@
                             <img src="./src/images/blogPostAuthor2.png" alt="author">
                                 <div class="blog-posts__text">
                                 <p class="blog-posts__date">Aug / 25 / 2013</p>
-                                <p class="blog-posts__author-name">Cohn Doe</p>
+                                <p class="blog-posts__author-name"><a href="">Cohn Doe</a></p>
                                 <p class="blog-posts__preview">Praesent dapibus, neque id cursus faucibus, tortor ...</p>
                         </div>
                         </div>
@@ -174,7 +176,7 @@
                             <img src="./src/images/blogPostAuthor3.png" alt="author">
                             <div class="blog-posts__text">
                                 <p class="blog-posts__date">Aug / 25 / 2013</p>
-                                <p class="blog-posts__author-name">Cohn Doe</p>
+                                <p class="blog-posts__author-name"><a href="">Cohn Doe</a></p>
                                 <p class="blog-posts__preview">Praesent dapibus, neque id cursus faucibus, tortor ...</p>
                             </div>
                     </div></li>
@@ -184,19 +186,19 @@
                 <h3 class="footer__caption">twitter posts</h3>
                 <ul>
                     <li class="twitter-posts__post">
-                        <p class="twitter-posts__username">@raflmlt</p>
+                        <p class="twitter-posts__username"><a href="">@raflmlt</a> </p>
                         <p class="twitter-posts__preview">Morbi interdum mollis sapien sed ac risus. Phasellus lacinia</p>
                     </li>
                     <li class="twitter-posts__post">
-                        <p class="twitter-posts__username">@johndoe</p>
+                        <p class="twitter-posts__username"><a href="">@johndoe</a> </p>
                         <p class="twitter-posts__preview">Morbi interdum mollis sapien sed ac risus. Phasellus lacinia</p>
                     </li>
                     <li class="twitter-posts__post">
-                        <p class="twitter-posts__username">@amanda</p>
+                        <p class="twitter-posts__username"><a href="">@amanda</a></p>
                         <p class="twitter-posts__preview">Morbi interdum mollis sapien sed ac risus. Phasellus lacinia</p>
                     </li>
                     <li class="twitter-posts__post">
-                        <p class="twitter-posts__username">@peter</p>
+                        <p class="twitter-posts__username"><a href="">@peter</a></p>
                         <p class="twitter-posts__preview">Morbi interdum mollis sapien sed ac risus. Phasellus lacinia</p>
                     </li>
                 </ul>
@@ -205,13 +207,26 @@
                 <h3 class="footer__caption">quick contact</h3>
                 <img class="quick-contact__map" src="./src/images/map.png" alt="map">
                 <p class="quick-contact__address">Address</p>
-                <p class="quick-contact__address-content">Building name, some street name, some city name, country</p>
-                <p class="quick-contact__contact">info@sitename.com / (000) 888 888 8888</p>
+                <adress class="quick-contact__address-content">Building name, some street name, some city name, country</adress>
+                <div class="quick-contact__contact">
+                    <span><a href="mailto:info@sitename.com ">info@sitename.com</a> /</span>
+                    <span><a href="tel:+(000) 888 888 8888">(000) 888 888 8888</a></span>
+                </div>
             </article>
         </div>
         
     <div class="copyrights"> 
-        <p>Copyright(c) website name.<span class="copyrights__designed-by"> Designed by: www.alltemplateneeds.com</span> / images from: http://wallpaperswide.com/ www.phototrack.net</p>
+        <p><span>Copyright(c) website name.</span>
+            <span class="copyrights__designed-by"> Designed by: 
+                <a href="http://www.alltemplateneeds.com" target="_blank" rel="noopener noreferrer"> www.alltemplateneeds.com</a>
+            </span> 
+            <span class="copyrights__slash">/</span>
+            <span class="copyrights__images-source">
+                images from:
+                <a href="http://wallpaperswide.com/" target="_blank" rel="noopener noreferrer">http://wallpaperswide.com/</a> 
+                <a href="http://www.phototrack.net/" target="_blank" rel="noopener noreferrer"> www.phototrack.net</a>
+            </span>
+            </p>
     </div>
 </footer>
 </body>
