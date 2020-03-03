@@ -651,7 +651,7 @@ a.header__nav-first-item:hover {
     a:hover, a:active {
         text-decoration: underline; 
     }
-    @media screen and (max-width: 1024px)  {
+    @media screen and (max-width: 1024px)  and (min-width: 768px) {
         width: 40%;
         order: -1;
     }
@@ -699,7 +699,7 @@ a.header__nav-first-item:hover {
     img {
         width: 100%;
     }
-    @media screen and (max-width: 1024px)  {
+    @media screen and (max-width: 1024px)  and (min-width: 768px) {
         width: 50%;
         order: -1;
     }

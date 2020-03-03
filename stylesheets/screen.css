@@ -853,7 +853,7 @@ a.header__nav-first-item:hover {
 .twitter-posts a:hover, .twitter-posts a:active {
   text-decoration: underline;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (min-width: 768px) {
   /* line 626, ../sass/screen.scss */
   .twitter-posts {
     width: 40%;
@@ -914,7 +914,7 @@ a.header__nav-first-item:hover {
 .quick-contact img {
   width: 100%;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (min-width: 768px) {
   /* line 669, ../sass/screen.scss */
   .quick-contact {
     width: 50%;
