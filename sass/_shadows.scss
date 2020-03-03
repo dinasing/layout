@@ -1,0 +1,6 @@
+$shadow_params: 0px 1px 4px 0px;
+@mixin shadow($color) {
+    -moz-box-shadow: $shadow_params $color;
+    -webkit-box-shadow: $shadow_params $color;
+    box-shadow: $shadow_params $color;
+}
